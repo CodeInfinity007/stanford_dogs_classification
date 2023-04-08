@@ -1,4 +1,4 @@
-# Dog Breed Classification using InceptionV3 CNN Model on Stanford Dogs Dataset
+# Dog Breed Classification on Stanford Dogs Dataset
 ## Description
 The <a href= "http://vision.stanford.edu/aditya86/ImageNetDogs/">Stanford Dogs Dataset</a> contains images of 120 breeds of dogs from around the world. This dataset has been built using images and annotation from ImageNet for the task of fine-grained image categorization. It was originally collected for fine-grain image categorization, a challenging problem as certain dog breeds have near identical features or differ in colour and age.
 
@@ -52,11 +52,6 @@ Non-trainable params: 0
 _________________________________________________________________
 
 ```
-
-### Training Results
-![Model Accuracy and Loss](/images/train_acc_loss.png)
-
-The `training_csv.log` file contains epoch wise training details.
 
 ## References
 - The original data source is found on http://vision.stanford.edu/aditya86/ImageNetDogs/ and contains additional information on the train/test splits and baseline results.
