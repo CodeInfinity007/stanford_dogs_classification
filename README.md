@@ -13,7 +13,7 @@ Data augmentation is done through the following techniques:
 - Rescaling to (256, 256)
 - Dividing the data into train and validation by code
 
-##Dividing the Dataset:
+## Dividing the Dataset:
 
 ![image](https://user-images.githubusercontent.com/78736570/230719263-bc4ba370-e0f0-402f-928a-3660d5894273.png)
 
