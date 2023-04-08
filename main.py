@@ -66,12 +66,6 @@ for subdir in subdirs:
         shutil.copy(src_annot, dst_annot)
 
 
-# Define the image and annotation directories
-train_image_dir = 'D:/Downloads/archive/train/images'
-train_annot_dir = 'D:/Downloads/archive/train/annotations'
-val_image_dir = 'D:/Downloads/archive/val/images'
-val_annot_dir = 'D:/Downloads/archive/val/annotations'
-
 # Get all the subdirectories in the image directory (dog breeds)
 train_subdirs = [os.path.join(train_image_dir, subdir) for subdir in os.listdir(train_image_dir) if
                  os.path.isdir(os.path.join(train_image_dir, subdir))]
